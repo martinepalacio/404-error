@@ -1,0 +1,102 @@
+*{
+margin: 0;
+pading: 0;
+position: absolute;
+width: 1440px;
+height: 1080px;
+}
+#nav {
+
+left: 77px;
+top: 40px;
+border-radius: nullpx;
+
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+
+color: #333333;
+}
+#scarecrow{
+height: 447.4263916015625px;
+width: 539.2236938476562px;
+left: 77px;
+top: 265px;
+border-radius: 0px;
+
+}
+body {
+  margin: 40px 80px 80px 80px;
+}
+
+
+#title {position: absolute;
+width: 586px;
+height: 190px;
+left: 735px;
+top: 265px;
+
+font-family: 'Space Mono', monospace;
+font-style: bold;
+font-weight: 700;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+}
+
+#text{position: absolute;
+width: 381px;
+height: 108px;
+left: 736px;
+top: 491px;
+
+font-family: 'Space Mono', monospace;
+font-style: regular;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+
+color: #4F4F4F;}
+
+#button{position: absolute;
+width: 216px;
+height: 68px;
+left: 740px;
+top: 663px;
+font-family: 'Space Mono', monospace;
+border: none;
+/* Gray 1 */
+background: #333333;
+color: white;
+}
+
+footer{
+position: absolute;
+width: 287px;
+height: 17px;
+left: 577px;
+top: 1039px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #BDBDBD;
+}
+
+@media only screen and (max-width: 400px) {
+
+html{background-color: blue;}
+
+}
